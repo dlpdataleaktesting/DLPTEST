@@ -1,0 +1,68 @@
+Traceback (most recent call last):
+  File "C:\Users\Dinçel\Desktop\Deploy\zipperutils\find modules.py", line 4, in <module>
+    finder.run_script('bacon.py')
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 165, in run_script
+    self.load_module('__main__', fp, pathname, stuff)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 360, in load_module
+    self.scan_code(co, m)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 433, in scan_code
+    self._safe_import_hook(name, m, fromlist, level=0)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 378, in _safe_import_hook
+    self.import_hook(name, caller, level=level)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 177, in import_hook
+    q, tail = self.find_head_package(parent, name)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 233, in find_head_package
+    q = self.import_module(head, qname, parent)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 326, in import_module
+    m = self.load_module(fqname, fp, pathname, stuff)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 360, in load_module
+    self.scan_code(co, m)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 433, in scan_code
+    self._safe_import_hook(name, m, fromlist, level=0)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 378, in _safe_import_hook
+    self.import_hook(name, caller, level=level)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 177, in import_hook
+    q, tail = self.find_head_package(parent, name)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 233, in find_head_package
+    q = self.import_module(head, qname, parent)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 326, in import_module
+    m = self.load_module(fqname, fp, pathname, stuff)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 360, in load_module
+    self.scan_code(co, m)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 433, in scan_code
+    self._safe_import_hook(name, m, fromlist, level=0)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 378, in _safe_import_hook
+    self.import_hook(name, caller, level=level)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 177, in import_hook
+    q, tail = self.find_head_package(parent, name)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 233, in find_head_package
+    q = self.import_module(head, qname, parent)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 326, in import_module
+    m = self.load_module(fqname, fp, pathname, stuff)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 360, in load_module
+    self.scan_code(co, m)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 466, in scan_code
+    self.scan_code(c, m)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 433, in scan_code
+    self._safe_import_hook(name, m, fromlist, level=0)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 378, in _safe_import_hook
+    self.import_hook(name, caller, level=level)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 177, in import_hook
+    q, tail = self.find_head_package(parent, name)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 233, in find_head_package
+    q = self.import_module(head, qname, parent)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 326, in import_module
+    m = self.load_module(fqname, fp, pathname, stuff)
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\modulefinder.py", line 343, in load_module
+    co = compile(fp.read()+'\n', pathname, 'exec')
+  File "C:\Users\Dinçel\AppData\Local\Programs\Python\Python38\lib\encodings\cp1254.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 308: character maps to <undefined>
+```\`
+My operating system is Windows 10.
+
+I am using Python3.8.1
+
+If there is a better way of finding imported modules let me know it.
+
+Also is there any way of saying that to Python: "use unicode for directory names"?
